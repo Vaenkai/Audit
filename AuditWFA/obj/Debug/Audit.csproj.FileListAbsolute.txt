@@ -1,0 +1,9 @@
+D:\User\Desktop\Audit-master\AuditWFA\bin\Debug\AuditWFA.exe.config
+D:\User\Desktop\Audit-master\AuditWFA\bin\Debug\AuditWFA.exe
+D:\User\Desktop\Audit-master\AuditWFA\bin\Debug\AuditWFA.pdb
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\Audit.csprojResolveAssemblyReference.cache
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\AuditWFA.Form1.resources
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\AuditWFA.Properties.Resources.resources
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\Audit.csproj.GenerateResource.Cache
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\AuditWFA.exe
+D:\User\Desktop\Audit-master\AuditWFA\obj\Debug\AuditWFA.pdb
