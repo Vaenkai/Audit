@@ -9,37 +9,40 @@ namespace AuditWFA
     class Day
     {
         //fields
-        private string name; // day of week
-        private int number; // day in year
+        private DateTime date;
+        private Schedule schedule;
 
-        //constructors
-        Day()
+        public Day()
         {
-            this.name = "Monday";
-            this.number = 0;
+            date = new DateTime();
+            schedule = new Schedule();
         }
-        Day(string name,int number)
+
+        public Day(DateTime day,Schedule schedule)
         {
-            this.name = name;
-            this.number = number;
+            this.date = day;
+            this.schedule = schedule;
         }
 
         //methods
-        public string getName()
+        public DateTime getDate()
         {
-            return this.name;
+            return this.date;
         }
-        public void setName(string name)
+
+        public void setDate(DateTime date)
         {
-            this.name = name;
+            this.date = date;
         }
-        public int getNumber()
+
+        public Schedule getSchedule()
         {
-            return this.number;
+            return this.schedule;
         }
-        public void setNumber(int number)
+
+        public void setSchedule(Schedule schedule)
         {
-            this.number = number;
+            this.schedule = schedule;
         }
     }
 }

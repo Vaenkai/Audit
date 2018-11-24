@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
 
 namespace AuditWFA
 {
@@ -13,6 +15,7 @@ namespace AuditWFA
         private string surname;
         private string lastName;
         private List<Subject> subjects;
+        private List<string> subs;
 
         //constructors 
         public Teacher()
@@ -21,6 +24,20 @@ namespace AuditWFA
             this.surname = "";
             this.lastName = "";
             this.subjects = new List<Subject>();
+        }
+        public Teacher(string all, List<Subject> subjects)
+        {
+            this.name = all;
+            this.surname = all;
+            this.lastName = all;
+            this.subjects = subjects;
+        }
+        public Teacher(string all, List<string> subjects)
+        {
+            this.name = all;
+            this.surname = all;
+            this.lastName = all;
+            this.subs = subjects;
         }
         public Teacher(string name, string surname,string lastname,List<Subject> subjects)
         {
@@ -62,6 +79,10 @@ namespace AuditWFA
         public List <Subject> getSubjects()
         {
             return subjects;
+        }
+        public List <string> getSubs()
+        {
+            return this.subs;
         }
 
         //methods
